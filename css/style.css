@@ -1,0 +1,36 @@
+/* ==== elise's css ==== */
+body {
+  font-family: 'Gaegu', sans-serif, 'Courier New', monospace;
+  color: #72706F;
+	font-size: 2em;
+  margin-left: 20px;
+}
+
+b {
+	color: #504745;
+}
+
+a {
+	color: #E39BE3;
+	text-decoration: none;
+}
+
+a:hover, a:active, a:focus {
+	color: #BAB2AE;
+	/* text-decoration: underline; */
+	font-weight: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+.hover-appear {
+  display: none;
+}
+
+
+/* https://www.w3.org/TR/selectors-3/#adjacent-sibling-combinators */
+.branch:hover + .hover-appear {
+  display: inline-block;
+}
